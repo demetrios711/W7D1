@@ -1,0 +1,16 @@
+const asdas = {
+    1: {
+        id: 1,
+            title: 'aksdlasdlk car',
+                body: 'with soap',
+                    done: false
+    },
+    2: {
+        id: 2,
+            title: 'aksdlasdlk dog',
+                body: 'with shampoo',
+                    done: true
+    },
+}
+
+store.dispatch(receiveTodos(asdas));
